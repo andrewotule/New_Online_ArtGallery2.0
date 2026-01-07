@@ -80,29 +80,29 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Discover', path: '/discover', hasDropdown: false },
-    { 
-      name: 'Artworks', 
+    {
+      name: 'Artworks',
       path: '/gallery',
       hasDropdown: true,
       dropdownItems: [
-        { name: 'All Artworks', path: '/gallery/all' },
-        { name: 'New Arrivals', path: '/gallery/new' },
-        { name: 'Best Sellers', path: '/gallery/best-sellers' },
-        { name: 'Limited Editions', path: '/gallery/limited' },
-      ]
+        { name: 'All Artworks', path: '/gallery' },
+        { name: 'New Arrivals', path: '/gallery?sort=newest' },
+        { name: 'Best Sellers', path: '/gallery?sort=popular' },
+        { name: 'Limited Editions', path: '/gallery?category=limited-edition' },
+      ],
     },
-    { 
-      name: 'Artists', 
+    {
+      name: 'Artists',
       path: '/artists',
       hasDropdown: true,
       dropdownItems: [
         { name: 'Featured Artists', path: '/artists/featured' },
         { name: 'Emerging Talents', path: '/artists/emerging' },
         { name: 'All Artists', path: '/artists/all' },
-      ]
+      ],
     },
-    { 
-      name: 'Categories', 
+    {
+      name: 'Categories',
       path: '/categories',
       hasDropdown: true,
       dropdownItems: [
@@ -110,7 +110,7 @@ const Navbar = () => {
         { name: 'Portraits', path: '/categories/portraits' },
         { name: 'Landscape', path: '/categories/landscape' },
         { name: 'Street Art', path: '/categories/street-art' },
-      ]
+      ],
     },
     { name: 'Collections', path: '/collections', hasDropdown: false },
   ];
@@ -346,7 +346,7 @@ const Navbar = () => {
 
               {/* User Account */}
               <Link
-                to="/account"
+                to="/login"
                 className="p-2 rounded-full text-gray-700 hover:text-blue-600 hover:bg-gray-100 transition-colors"
               >
                 <UserIcon className="h-5 w-5" />
@@ -403,18 +403,18 @@ const Navbar = () => {
                   </div>
                   <div className="mt-3 space-y-1">
                     <Link
-                      to="/account"
+                      to="/login"
                       className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100"
                       onClick={() => setIsOpen(false)}
                     >
-                      Your Profile
+                      Sign in
                     </Link>
                     <Link
-                      to="/settings"
+                      to="/login"
                       className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100"
                       onClick={() => setIsOpen(false)}
                     >
-                      Settings
+                      Account settings
                     </Link>
                   </div>
                 </div>

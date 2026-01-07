@@ -14,7 +14,7 @@ const mockArtwork = {
   description: 'A vibrant abstract piece that captures the essence of modern art with its bold colors and dynamic composition. Each brushstroke tells a story of creative freedom and emotional expression.',
   price: 450,
   originalPrice: 600,
-  imageUrl: '/images/artwork/abstract1.jpg',
+  imageUrl: 'https://images.unsplash.com/photo-1526481280695-3c4697b457a3?auto=format&fit=crop&w=1200&q=80',
   category: 'abstract',
   isLimitedEdition: true,
   editionNumber: 5,
@@ -32,7 +32,7 @@ const mockArtwork = {
       title: 'Colorful Chaos',
       artist: 'Michael Chen',
       price: 375,
-      imageUrl: '/images/artwork/abstract2.jpg',
+      imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80',
       category: 'abstract'
     },
     {
@@ -40,7 +40,7 @@ const mockArtwork = {
       title: 'Mountain Majesty',
       artist: 'John Doe',
       price: 320,
-      imageUrl: '/images/artwork/landscape1.jpg',
+      imageUrl: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
       category: 'landscape'
     }
   ]

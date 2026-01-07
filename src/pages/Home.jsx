@@ -12,7 +12,7 @@ const featuredArtworks = [
     title: 'Abstract Harmony',
     artist: 'Jane Smith',
     price: 450,
-    imageUrl: '/images/artwork/abstract1.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1526481280695-3c4697b457a3?auto=format&fit=crop&w=900&q=80',
     category: 'abstract',
     isLimitedEdition: true
   },
@@ -21,7 +21,7 @@ const featuredArtworks = [
     title: 'Mountain Majesty',
     artist: 'John Doe',
     price: 320,
-    imageUrl: '/images/artwork/landscape1.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
     category: 'landscape'
   },
   {
@@ -29,7 +29,7 @@ const featuredArtworks = [
     title: 'Urban Rhythms',
     artist: 'Alex Chen',
     price: 380,
-    imageUrl: '/images/artwork/urban1.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80',
     category: 'urban',
     isLimitedEdition: true
   },
@@ -38,7 +38,7 @@ const featuredArtworks = [
     title: 'Ocean Dreams',
     artist: 'Maria Garcia',
     price: 420,
-    imageUrl: '/images/artwork/ocean1.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
     category: 'nature'
   },
 ];
